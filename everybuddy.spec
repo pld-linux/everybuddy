@@ -57,7 +57,7 @@ incorporado em versões futuras.
 %build
 rm -f missing
 %{__libtoolize}
-aclocal -I m4
+%{__aclocal} -I m4
 %{__autoconf}
 %{__automake}
 %configure \
