@@ -1,4 +1,4 @@
-Summary:	A Universal Instant Messanging Client 
+Summary:	A Universal Instant Messanging Client
 Summary(pl):	Uniwersalny Klient Natychmiastowych Wiadomo¶ci
 Summary(pt_BR):	Um cliente universal para mensagens instantâneas
 Name:		everybuddy
@@ -74,7 +74,7 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT \
 	AUtilitiesdir=%{_applnkdir}/Network/Communications
-	
+
 gzip -9nf AUTHORS NEWS README TODO \
 	doc/{CREDITS,FAQ,NOMENCLATURE,README*}
 
