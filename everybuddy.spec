@@ -4,7 +4,6 @@ Summary(pt_BR):	Um cliente universal para mensagens instantâneas
 Name:		everybuddy
 Version:	0.2.1beta6
 Release:	2
-Epoch:		0
 License:	GPL
 Group:		Applications/Communications
 Source0:	http://www.everybuddy.com/files/%{name}-%{version}.tar.gz
