@@ -59,7 +59,7 @@ rm -f missing
 libtoolize --copy --force
 aclocal -I m4
 autoconf
-automake -a -c
+automake -a -c -f
 %configure \
 	--enable-gnome \
 	--enable-panel \
