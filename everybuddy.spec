@@ -58,8 +58,8 @@ incorporado em versões futuras.
 rm -f missing
 libtoolize --copy --force
 aclocal -I m4
-autoconf
-automake -a -c -f
+%{__autoconf}
+%{__automake}
 %configure \
 	--enable-gnome \
 	--enable-panel \
