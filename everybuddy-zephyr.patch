@@ -1,0 +1,12 @@
+diff -urN everybuddy-0.2.1beta6.org/zephyr/zephyr_err.c everybuddy-0.2.1beta6/zephyr/zephyr_err.c
+--- everybuddy-0.2.1beta6.org/zephyr/zephyr_err.c	Tue Nov 13 09:21:39 2001
++++ everybuddy-0.2.1beta6/zephyr/zephyr_err.c	Tue Nov 13 16:48:15 2001
+@@ -45,7 +45,7 @@
+     struct et_list *next;
+     const struct error_table * table;
+ };
+-extern struct et_list *_et_list;
++struct et_list *_et_list;
+ 
+ static const struct error_table et = { text, -772103680L, 23 };
+ 
