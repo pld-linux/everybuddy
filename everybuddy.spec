@@ -1,5 +1,6 @@
 Summary:	A Universal Instant Messanging Client 
 Summary(pl):	Uniwersalny Klient Natychmiastowych Wiadomo¶ci
+Summary(pt_BR):	Um cliente universal para mensagens instantâneas
 Name:		everybuddy
 Version:	0.2.1beta6
 Release:	1
@@ -12,13 +13,13 @@ Source0:	http://www.everybuddy.com/files/%{name}-%{version}.tar.gz
 Patch0:		%{name}-make.patch
 Patch1:		%{name}-zephyr.patch
 URL:		http://www.everybuddy.com/
-BuildRequires:	gnome-libs-devel >= 1.2.13
-BuildRequires:	gtk+-devel >= 1.2.5
 BuildRequires:	ORBit-devel
-BuildRequires:	esound-devel
 BuildRequires:	automake
 BuildRequires:	autoconf
+BuildRequires:	esound-devel
 BuildRequires:	libtool
+BuildRequires:	gnome-libs-devel >= 1.2.13
+BuildRequires:	gtk+-devel >= 1.2.5
 BuildRequires:	perl
 Prereq:		/sbin/ldconfig
 Requires:	applnk
@@ -42,13 +43,21 @@ Klientem Natychmiastowych Wiadomo¶ci (Instant Messaging). Zosta³ on
 zaprojektowany tak by udostêpniæ us³ugi AOL, ICQ, Yahoo, MSN oraz
 Jabber przez zunifikowany i jednolity interfejs u¿ytkownika.
 
+%description -l pt_BR
+O everybuddy é projetado para tornar-se um cliente universal para
+mensagens instantâneas e para integrar facilmente todos os clientes
+deste tipo existentes, fornecendo uma única interface consistente com
+o usuário. Atualmente suporta o envio e recebimento de mensagens nas
+redes AOL, ICQ, Yahoo e MSN. Suporte a IRC possivelmente seja
+incorporado em versões futuras.
+
 %prep
 %setup -q
 %patch0 -p1
 %patch1 -p1
 
 %build
-rm missing
+rm -f missing
 libtoolize --copy --force
 aclocal -I m4
 autoconf
