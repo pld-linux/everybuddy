@@ -7,8 +7,6 @@ Release:	1
 Epoch:		0
 License:	GPL
 Group:		Applications/Communications
-Group(de):	Applikationen/Kommunikation
-Group(pl):	Aplikacje/Komunikacja
 Source0:	http://www.everybuddy.com/files/%{name}-%{version}.tar.gz
 Patch0:		%{name}-make.patch
 Patch1:		%{name}-zephyr.patch
