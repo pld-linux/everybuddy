@@ -8,6 +8,7 @@ Epoch:		0
 License:	GPL
 Group:		Applications/Communications
 Source0:	http://www.everybuddy.com/files/%{name}-%{version}.tar.gz
+# Source0-md5:	f9f020a184459a9289fbdd9b62cf0bfb
 Patch0:		%{name}-make.patch
 Patch1:		%{name}-zephyr.patch
 URL:		http://www.everybuddy.com/
