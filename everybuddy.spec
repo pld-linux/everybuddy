@@ -20,7 +20,6 @@ BuildRequires:	gnome-libs-devel >= 1.2.13
 BuildRequires:	gtk+-devel >= 1.2.5
 BuildRequires:	perl
 Prereq:		/sbin/ldconfig
-Requires:	applnk
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_sysconfdir	/etc/X11/GNOME
