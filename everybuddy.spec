@@ -56,7 +56,7 @@ incorporado em versões futuras.
 
 %build
 rm -f missing
-libtoolize --copy --force
+%{__libtoolize}
 aclocal -I m4
 %{__autoconf}
 %{__automake}
