@@ -1,6 +1,6 @@
 Summary:	A Universal Instant Messanging Client
-Summary(pl):	Uniwersalny Klient Natychmiastowych Wiadomo¶ci
-Summary(pt_BR):	Um cliente universal para mensagens instantâneas
+Summary(pl.UTF-8):   Uniwersalny Klient Natychmiastowych WiadomoÅ›ci
+Summary(pt_BR.UTF-8):   Um cliente universal para mensagens instantÃ¢neas
 Name:		everybuddy
 Version:	0.2.1beta6
 Release:	2
@@ -32,19 +32,19 @@ Everybuddy supports sending and reciveing messages in AOL, ICQ, Yahoo,
 MSN and Jabber. IRC support is possibly planned to be incorporated in
 future releases.
 
-%description -l pl
-Everybuddy jest zaprojektowany tak by móc staæ siê Uniwersalnym
-Klientem Natychmiastowych Wiadomo¶ci (Instant Messaging). Zosta³ on
-zaprojektowany tak by udostêpniæ us³ugi AOL, ICQ, Yahoo, MSN oraz
-Jabber przez zunifikowany i jednolity interfejs u¿ytkownika.
+%description -l pl.UTF-8
+Everybuddy jest zaprojektowany tak by mÃ³c staÄ‡ siÄ™ Uniwersalnym
+Klientem Natychmiastowych WiadomoÅ›ci (Instant Messaging). ZostaÅ‚ on
+zaprojektowany tak by udostÄ™pniÄ‡ usÅ‚ugi AOL, ICQ, Yahoo, MSN oraz
+Jabber przez zunifikowany i jednolity interfejs uÅ¼ytkownika.
 
-%description -l pt_BR
-O everybuddy é projetado para tornar-se um cliente universal para
-mensagens instantâneas e para integrar facilmente todos os clientes
-deste tipo existentes, fornecendo uma única interface consistente com
-o usuário. Atualmente suporta o envio e recebimento de mensagens nas
+%description -l pt_BR.UTF-8
+O everybuddy Ã© projetado para tornar-se um cliente universal para
+mensagens instantÃ¢neas e para integrar facilmente todos os clientes
+deste tipo existentes, fornecendo uma Ãºnica interface consistente com
+o usuÃ¡rio. Atualmente suporta o envio e recebimento de mensagens nas
 redes AOL, ICQ, Yahoo e MSN. Suporte a IRC possivelmente seja
-incorporado em versões futuras.
+incorporado em versÃµes futuras.
 
 %prep
 %setup -q
