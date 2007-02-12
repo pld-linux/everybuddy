@@ -1,6 +1,6 @@
 Summary:	A Universal Instant Messanging Client
-Summary(pl.UTF-8):   Uniwersalny Klient Natychmiastowych Wiadomości
-Summary(pt_BR.UTF-8):   Um cliente universal para mensagens instantâneas
+Summary(pl.UTF-8):	Uniwersalny Klient Natychmiastowych Wiadomości
+Summary(pt_BR.UTF-8):	Um cliente universal para mensagens instantâneas
 Name:		everybuddy
 Version:	0.2.1beta6
 Release:	2
